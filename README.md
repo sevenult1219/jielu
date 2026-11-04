@@ -2,6 +2,14 @@
 
 一个原生 macOS 截屏与录屏应用。支持窗口/框选区域的普通截屏与自动滚动长截图，也支持窗口、全屏或框选区域录屏。
 
+## 下载
+
+预构建安装包（Apple Silicon / macOS 14+）：
+
+**https://github.com/sevenult1219/jielu/releases/latest**
+
+> 安装包使用 Apple Development 证书签名，未经过 Apple 公证。首次打开若被 Gatekeeper 拦截，请在 Finder 中右键应用 →“打开”，或到“系统设置 → 隐私与安全性”中允许。
+
 - 安装位置：`/Applications/截录.app`
 - 系统要求：macOS 14 或更高（已在 macOS 26 上测试）
 - 技术栈：SwiftUI、ScreenCaptureKit、Accessibility、CoreGraphics
